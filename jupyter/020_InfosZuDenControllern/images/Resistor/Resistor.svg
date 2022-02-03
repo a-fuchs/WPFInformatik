@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+ version="1.1"
+ id="svg2"
+ width="210mm"
+ height="297mm"
+ viewBox="0 0 793.7008 1122.5197"
+ sodipodi:docname="Resistor.svg"
+ inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+ inkscape:export-filename="/home/alfred/Documents/school/Wahlpflichtfach/WPF_Informatik/Leistungsnachweise/Kurzarbeiten_2020-2021/KA-2_2021-04-26_Arduino/Thermometer.png"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/">
+<metadata
+ id="metadata8">
+<rdf:RDF>
+<cc:Work
+ rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type
+ rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<defs
+ id="defs6" />
+<sodipodi:namedview
+ pagecolor="#ffffff"
+ bordercolor="#666666"
+ borderopacity="1"
+ objecttolerance="10"
+ gridtolerance="10"
+ guidetolerance="10"
+ inkscape:pageopacity="0"
+ inkscape:pageshadow="2"
+ inkscape:window-width="2560"
+ inkscape:window-height="1375"
+ id="namedview4"
+ showgrid="false"
+ inkscape:zoom="0.93231905"
+ inkscape:cx="-146.40911"
+ inkscape:cy="104.04164"
+ inkscape:window-x="0"
+ inkscape:window-y="0"
+ inkscape:window-maximized="1"
+ inkscape:current-layer="g10"
+ inkscape:document-rotation="0"
+ units="mm"
+ inkscape:pagecheckerboard="0"
+ inkscape:document-units="mm" />
+<g
+ inkscape:groupmode="layer"
+ inkscape:label="Image"
+ id="g10">
+<path
+ style="color:#000000;overflow:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.77777;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000"
+ d="M -12.103483,43.212398 H 68.301346"
+ id="path854"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="rect834"
+ style="color:#000000;overflow:visible;fill:#7bc6b8;fill-opacity:1;stroke:none;stroke-width:0.755554;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 27.112603,50.245337 c -6.60658,-0.06535 -12.52417,0.346535 -14.357823,1.124132 -1.329473,0.563851 -3.8753483,0.287318 -5.9058987,0.379873 -1.051164,0.04798 -1.8993863,-1.55406 -1.8993863,-2.60632 v -6.382841 0.138832 -6.382841 c 0,-1.05226 0.8482223,-2.654298 1.8993863,-2.60632 2.0305504,0.09255 4.5764257,-0.183978 5.9058987,0.379873 1.833653,0.777597 7.751243,1.189487 14.357823,1.124132 h 1.785827 c 6.60658,0.06535 12.524171,-0.346535 14.357824,-1.124132 1.329472,-0.563851 3.875348,-0.287318 5.905898,-0.379873 1.051164,-0.04798 1.899386,1.55406 1.899386,2.60632 v 6.382841 -0.138832 6.382841 c 0,1.05226 -0.848222,2.654222 -1.899386,2.60632 -2.03055,-0.09255 -4.576426,0.183978 -5.905898,-0.379873 C 41.422601,50.591872 35.50501,50.179982 28.89843,50.245337 Z"
+ sodipodi:nodetypes="csssccsssccsssccssscc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="rect841"
+ style="color:#000000;overflow:visible;fill:#fd4f03;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 16.951521,35.06447 -0.04477,15.355721 c -1.784788,0.150922 -3.187606,0.455353 -4.969333,0.940136 l 0.08953,-17.191226 c 2.680251,0.923627 3.05323,0.798167 4.924585,0.895369 z"
+ sodipodi:nodetypes="ccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path844"
+ style="color:#000000;overflow:visible;fill:#fd4f03;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 24.507058,36.027008 0.145255,14.22766 c -1.784788,0.132033 -3.187605,-0.171322 -5.159279,0.03117 l 0.08953,-15.042318 c 3.028467,0.238359 3.084888,0.06517 4.956243,0.150355 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path846"
+ style="color:#000000;overflow:visible;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 26.877248,36.027008 -0.145255,14.22766 c 1.784788,0.132033 3.187606,-0.171322 5.159279,0.03117 L 31.801742,35.24352 c -3.028466,0.238359 -3.084887,0.06517 -4.956243,0.150355 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path848"
+ style="color:#000000;overflow:visible;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 34.171326,36.121981 -0.145256,14.22766 c 1.784788,0.132033 3.187606,-0.171321 5.15928,0.03117 L 39.095816,35.33849 c -3.028466,0.238359 -3.084887,0.06517 -4.956243,0.150356 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path850"
+ style="color:#000000;font-variation-settings:normal;overflow:visible;opacity:1;vector-effect:none;fill:#8c4008;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000;stop-opacity:1"
+ d="m 44.90627,34.897606 -0.06687,16.71228 c 0.821098,0.155077 1.466454,-0.201242 2.373534,0.03664 l -0.04118,-17.669207 c -1.393241,0.279989 -1.419194,0.0765 -2.280109,0.17661 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:transform-center-x="4.0923697"
+ inkscape:transform-center-y="0.18594227"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path852"
+ style="color:#000000;overflow:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.377777;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 27.112603,50.245337 c -6.60658,-0.06535 -12.52417,0.346535 -14.357823,1.124132 -1.329473,0.563851 -3.8753483,0.287318 -5.9058987,0.379873 -1.051164,0.04798 -1.8993863,-1.55406 -1.8993863,-2.60632 v -6.382841 0.138832 -6.382841 c 0,-1.05226 0.8482223,-2.654298 1.8993863,-2.60632 2.0305504,0.09255 4.5764257,-0.183978 5.9058987,0.379873 1.833653,0.777597 7.751243,1.189487 14.357823,1.124132 h 1.785827 c 6.60658,0.06535 12.524171,-0.346535 14.357824,-1.124132 1.329472,-0.563851 3.875348,-0.287318 5.905898,-0.379873 1.051164,-0.04798 1.899386,1.55406 1.899386,2.60632 v 6.382841 -0.138832 6.382841 c 0,1.05226 -0.848222,2.654222 -1.899386,2.60632 -2.03055,-0.09255 -4.576426,0.183978 -5.905898,-0.379873 C 41.422601,50.591872 35.50501,50.179982 28.89843,50.245337 Z"
+ sodipodi:nodetypes="csssccsssccsssccssscc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ style="color:#000000;overflow:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.77777;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 101.22956,43.212398 h 80.40483"
+ id="path922"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path924"
+ style="color:#000000;overflow:visible;fill:#debf8c;fill-opacity:1;stroke:none;stroke-width:0.755554;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 140.44565,50.245337 c -6.60658,-0.06535 -12.52417,0.346535 -14.35782,1.124132 -1.32948,0.563851 -3.87535,0.287318 -5.9059,0.379873 -1.05117,0.04798 -1.89939,-1.55406 -1.89939,-2.60632 v -6.382841 0.138832 -6.382841 c 0,-1.05226 0.84822,-2.654298 1.89939,-2.60632 2.03055,0.09255 4.57642,-0.183978 5.9059,0.379873 1.83365,0.777597 7.75124,1.189487 14.35782,1.124132 h 1.78583 c 6.60658,0.06535 12.52417,-0.346535 14.35782,-1.124132 1.32947,-0.563851 3.87535,-0.287318 5.9059,-0.379873 1.05116,-0.04798 1.89939,1.55406 1.89939,2.60632 v 6.382841 -0.138832 6.382841 c 0,1.05226 -0.84823,2.654222 -1.89939,2.60632 -2.03055,-0.09255 -4.57643,0.183978 -5.9059,-0.379873 -1.83365,-0.777597 -7.75124,-1.189487 -14.35782,-1.124132 z"
+ sodipodi:nodetypes="csssccsssccsssccssscc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path926"
+ style="color:#000000;overflow:visible;fill:#fd4f03;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 131.26947,35.06447 -0.0535,15.355721 c -2.13538,0.150922 -3.81375,0.455353 -5.94545,0.940136 l 0.1071,-17.191226 c 3.20672,0.923627 3.65297,0.798167 5.8919,0.895369 z"
+ sodipodi:nodetypes="ccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path928"
+ style="color:#000000;overflow:visible;fill:#fd4f03;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 139.9247,36.017676 0.16282,14.227661 c -2.0016,0.132033 -3.57485,-0.171322 -5.78603,0.03117 l 0.1003,-15.042318 c 3.39638,0.238358 3.45966,0.06517 5.55834,0.150355 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path930"
+ style="color:#000000;overflow:visible;fill:#8c4008;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 143.65007,36.027008 -0.16547,14.22766 c 2.03259,0.132033 3.63017,-0.171322 5.87558,0.03117 l -0.102,-15.042318 c -3.44893,0.238359 -3.51319,0.06517 -5.64436,0.150355 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path934"
+ style="color:#000000;font-variation-settings:normal;overflow:visible;opacity:1;vector-effect:none;fill:#dfd562;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000;stop-opacity:1"
+ d="m 158.04066,34.897606 -0.0982,16.71228 c 1.2073,0.155077 2.15622,-0.201242 3.48996,0.03664 l -0.0606,-17.669207 c -2.04861,0.279989 -2.08677,0.0765 -3.35262,0.17661 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:transform-center-x="6.0172026"
+ inkscape:transform-center-y="0.18594227"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ id="path936"
+ style="color:#000000;overflow:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.377777;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 140.44565,50.245337 c -6.60658,-0.06535 -12.52417,0.346535 -14.35782,1.124132 -1.32948,0.563851 -3.87535,0.287318 -5.9059,0.379873 -1.05117,0.04798 -1.89939,-1.55406 -1.89939,-2.60632 v -6.382841 0.138832 -6.382841 c 0,-1.05226 0.84822,-2.654298 1.89939,-2.60632 2.03055,0.09255 4.57642,-0.183978 5.9059,0.379873 1.83365,0.777597 7.75124,1.189487 14.35782,1.124132 h 1.78583 c 6.60658,0.06535 12.52417,-0.346535 14.35782,-1.124132 1.32947,-0.563851 3.87535,-0.287318 5.9059,-0.379873 1.05116,-0.04798 1.89939,1.55406 1.89939,2.60632 v 6.382841 -0.138832 6.382841 c 0,1.05226 -0.84823,2.654222 -1.89939,2.60632 -2.03055,-0.09255 -4.57643,0.183978 -5.9059,-0.379873 -1.83365,-0.777597 -7.75124,-1.189487 -14.35782,-1.124132 z"
+ sodipodi:nodetypes="csssccsssccsssccssscc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300" />
+<path
+ style="color:#000000;font-variation-settings:normal;overflow:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.214;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="M 7.3677748,78.994305 H 57.115965"
+ id="path13080" />
+<path
+ style="color:#000000;font-variation-settings:normal;overflow:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.214;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 117.1806,79.373929 h 49.74823"
+ id="path13078" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect13056"
+ width="13.460537"
+ height="39.461128"
+ x="-85.7556"
+ y="123.01723"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffa000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect13058"
+ width="13.460537"
+ height="2.6076806"
+ x="-85.7556"
+ y="127.44394"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffa000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect13060"
+ width="13.460537"
+ height="2.6076806"
+ x="-85.7556"
+ y="133.44392"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#b35f0f;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;font-variation-settings:normal;opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+ id="rect13062"
+ width="13.460537"
+ height="2.6076806"
+ x="-85.7556"
+ y="139.44395"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#b3b3b3;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect13064"
+ width="13.460537"
+ height="2.6076806"
+ x="-85.7556"
+ y="151.44397"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect13066"
+ width="13.460537"
+ height="39.461128"
+ x="-85.376282"
+ y="12.954726"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffa000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect13068"
+ width="13.460537"
+ height="2.6076806"
+ x="-85.376282"
+ y="17.381437"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffa000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect13070"
+ width="13.460537"
+ height="2.6076806"
+ x="-85.376282"
+ y="23.381422"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect13072"
+ width="13.460537"
+ height="2.6076806"
+ x="-85.376282"
+ y="29.381392"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#b35f0f;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect13074"
+ width="13.460537"
+ height="2.6076806"
+ x="-85.376282"
+ y="47.381439"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect13076"
+ width="13.460537"
+ height="2.6076806"
+ x="-85.376282"
+ y="35.381439"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<path
+ style="color:#000000;overflow:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.77777;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000"
+ d="M -12.103483,223.2124 H 68.301346"
+ id="path851"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_4.png" />
+<path
+ id="path853"
+ style="color:#000000;overflow:visible;fill:#7bc6b8;fill-opacity:1;stroke:none;stroke-width:0.755554;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 27.112603,230.24534 c -6.60658,-0.0653 -12.52417,0.34653 -14.357823,1.12413 -1.329473,0.56385 -3.8753483,0.28732 -5.9058987,0.37987 -1.051164,0.048 -1.8993863,-1.55406 -1.8993863,-2.60632 v -6.38284 0.13883 -6.38284 c 0,-1.05226 0.8482223,-2.6543 1.8993863,-2.60632 2.0305504,0.0925 4.5764257,-0.18398 5.9058987,0.37988 1.833653,0.77759 7.751243,1.18948 14.357823,1.12413 h 1.785827 c 6.60658,0.0653 12.524171,-0.34654 14.357824,-1.12413 1.329472,-0.56386 3.875348,-0.28732 5.905898,-0.37988 1.051164,-0.048 1.899386,1.55406 1.899386,2.60632 v 6.38284 -0.13883 6.38284 c 0,1.05226 -0.848222,2.65422 -1.899386,2.60632 -2.03055,-0.0926 -4.576426,0.18398 -5.905898,-0.37987 -1.833653,-0.7776 -7.751244,-1.18949 -14.357824,-1.12413 z"
+ sodipodi:nodetypes="csssccsssccsssccssscc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_4.png" />
+<path
+ id="path855"
+ style="color:#000000;overflow:visible;fill:#d40000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 16.951521,215.06447 -0.04477,15.35572 c -1.784788,0.15092 -3.187606,0.45535 -4.969333,0.94014 l 0.08953,-17.19123 c 2.680251,0.92363 3.05323,0.79817 4.924585,0.89537 z"
+ sodipodi:nodetypes="ccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_4.png" />
+<path
+ id="path857"
+ style="color:#000000;overflow:visible;fill:#d40000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 24.507058,216.02701 0.145255,14.22766 c -1.784788,0.13203 -3.187605,-0.17132 -5.159279,0.0312 l 0.08953,-15.04232 c 3.028467,0.23836 3.084888,0.0652 4.956243,0.15036 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_4.png" />
+<path
+ id="path859"
+ style="color:#000000;overflow:visible;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 26.877248,216.02701 -0.145255,14.22766 c 1.784788,0.13203 3.187606,-0.17132 5.159279,0.0312 l -0.08953,-15.04232 c -3.028466,0.23836 -3.084887,0.0652 -4.956243,0.15036 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_4.png" />
+<path
+ id="path861"
+ style="color:#000000;overflow:visible;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 34.171326,216.12198 -0.145256,14.22766 c 1.784788,0.13203 3.187606,-0.17132 5.15928,0.0312 l -0.08953,-15.04232 c -3.028466,0.23836 -3.084887,0.0652 -4.956243,0.15036 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_4.png" />
+<path
+ id="path863"
+ style="color:#000000;font-variation-settings:normal;overflow:visible;opacity:1;vector-effect:none;fill:#8c4008;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000;stop-opacity:1"
+ d="m 44.90627,214.89761 -0.06687,16.71228 c 0.821098,0.15507 1.466454,-0.20125 2.373534,0.0366 l -0.04118,-17.66921 c -1.393241,0.27999 -1.419194,0.0765 -2.280109,0.17661 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:transform-center-x="4.0923697"
+ inkscape:transform-center-y="0.18594227"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_4.png" />
+<path
+ id="path865"
+ style="color:#000000;overflow:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.377777;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 27.112603,230.24534 c -6.60658,-0.0653 -12.52417,0.34653 -14.357823,1.12413 -1.329473,0.56385 -3.8753483,0.28732 -5.9058987,0.37987 -1.051164,0.048 -1.8993863,-1.55406 -1.8993863,-2.60632 v -6.38284 0.13883 -6.38284 c 0,-1.05226 0.8482223,-2.6543 1.8993863,-2.60632 2.0305504,0.0925 4.5764257,-0.18398 5.9058987,0.37988 1.833653,0.77759 7.751243,1.18948 14.357823,1.12413 h 1.785827 c 6.60658,0.0653 12.524171,-0.34654 14.357824,-1.12413 1.329472,-0.56386 3.875348,-0.28732 5.905898,-0.37988 1.051164,-0.048 1.899386,1.55406 1.899386,2.60632 v 6.38284 -0.13883 6.38284 c 0,1.05226 -0.848222,2.65422 -1.899386,2.60632 -2.03055,-0.0926 -4.576426,0.18398 -5.905898,-0.37987 -1.833653,-0.7776 -7.751244,-1.18949 -14.357824,-1.12413 z"
+ sodipodi:nodetypes="csssccsssccsssccssscc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_4.png" />
+<path
+ style="color:#000000;overflow:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.77777;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 101.22956,223.2124 h 80.40483"
+ id="path867"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_3.png" />
+<path
+ id="path869"
+ style="color:#000000;overflow:visible;fill:#debf8c;fill-opacity:1;stroke:none;stroke-width:0.755554;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 140.44565,230.24534 c -6.60658,-0.0653 -12.52417,0.34653 -14.35782,1.12413 -1.32948,0.56385 -3.87535,0.28732 -5.9059,0.37987 -1.05117,0.048 -1.89939,-1.55406 -1.89939,-2.60632 v -6.38284 0.13883 -6.38284 c 0,-1.05226 0.84822,-2.6543 1.89939,-2.60632 2.03055,0.0925 4.57642,-0.18398 5.9059,0.37988 1.83365,0.77759 7.75124,1.18948 14.35782,1.12413 h 1.78583 c 6.60658,0.0653 12.52417,-0.34654 14.35782,-1.12413 1.32947,-0.56386 3.87535,-0.28732 5.9059,-0.37988 1.05116,-0.048 1.89939,1.55406 1.89939,2.60632 v 6.38284 -0.13883 6.38284 c 0,1.05226 -0.84823,2.65422 -1.89939,2.60632 -2.03055,-0.0926 -4.57643,0.18398 -5.9059,-0.37987 -1.83365,-0.7776 -7.75124,-1.18949 -14.35782,-1.12413 z"
+ sodipodi:nodetypes="csssccsssccsssccssscc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_3.png" />
+<path
+ id="path871"
+ style="color:#000000;overflow:visible;fill:#d40000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-opacity:1"
+ d="m 131.26947,215.06447 -0.0535,15.35572 c -2.13538,0.15092 -3.81375,0.45535 -5.94545,0.94014 l 0.1071,-17.19123 c 3.20672,0.92363 3.65297,0.79817 5.8919,0.89537 z"
+ sodipodi:nodetypes="ccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_3.png" />
+<path
+ id="path873"
+ style="color:#000000;overflow:visible;fill:#d40000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-opacity:1"
+ d="m 139.9247,216.01768 0.16282,14.22766 c -2.0016,0.13203 -3.57485,-0.17132 -5.78603,0.0312 l 0.1003,-15.04232 c 3.39638,0.23836 3.45966,0.0652 5.55834,0.15035 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_3.png" />
+<path
+ id="path875"
+ style="color:#000000;overflow:visible;fill:#8c4008;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 143.65007,216.02701 -0.16547,14.22766 c 2.03259,0.13203 3.63017,-0.17132 5.87558,0.0312 l -0.102,-15.04232 c -3.44893,0.23836 -3.51319,0.0652 -5.64436,0.15036 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_3.png" />
+<path
+ id="path877"
+ style="color:#000000;font-variation-settings:normal;overflow:visible;opacity:1;vector-effect:none;fill:#dfd562;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000;stop-opacity:1"
+ d="m 158.04066,214.89761 -0.0982,16.71228 c 1.2073,0.15507 2.15622,-0.20125 3.48996,0.0366 l -0.0606,-17.66921 c -2.04861,0.27999 -2.08677,0.0765 -3.35262,0.17661 z"
+ sodipodi:nodetypes="cccccc"
+ inkscape:transform-center-x="6.0172026"
+ inkscape:transform-center-y="0.18594227"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_3.png" />
+<path
+ id="path879"
+ style="color:#000000;overflow:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.377777;stroke-miterlimit:10;stroke-dasharray:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 140.44565,230.24534 c -6.60658,-0.0653 -12.52417,0.34653 -14.35782,1.12413 -1.32948,0.56385 -3.87535,0.28732 -5.9059,0.37987 -1.05117,0.048 -1.89939,-1.55406 -1.89939,-2.60632 v -6.38284 0.13883 -6.38284 c 0,-1.05226 0.84822,-2.6543 1.89939,-2.60632 2.03055,0.0925 4.57642,-0.18398 5.9059,0.37988 1.83365,0.77759 7.75124,1.18948 14.35782,1.12413 h 1.78583 c 6.60658,0.0653 12.52417,-0.34654 14.35782,-1.12413 1.32947,-0.56386 3.87535,-0.28732 5.9059,-0.37988 1.05116,-0.048 1.89939,1.55406 1.89939,2.60632 v 6.38284 -0.13883 6.38284 c 0,1.05226 -0.84823,2.65422 -1.89939,2.60632 -2.03055,-0.0926 -4.57643,0.18398 -5.9059,-0.37987 -1.83365,-0.7776 -7.75124,-1.18949 -14.35782,-1.12413 z"
+ sodipodi:nodetypes="csssccsssccsssccssscc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/010_InfosZuDenControllern/Esp32_HelTec/images/Resistor/Resistor_220_3.png" />
+<path
+ style="color:#000000;font-variation-settings:normal;overflow:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.214;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="M 7.3677748,258.99431 H 57.115965"
+ id="path881" />
+<path
+ style="color:#000000;font-variation-settings:normal;overflow:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.214;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 117.1806,259.37393 h 49.74823"
+ id="path883" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect885"
+ width="13.460537"
+ height="39.461128"
+ x="-265.75562"
+ y="123.01723"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;font-variation-settings:normal;opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+ id="rect887"
+ width="13.460537"
+ height="2.6076806"
+ x="-265.75562"
+ y="127.44394"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;font-variation-settings:normal;opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+ id="rect889"
+ width="13.460537"
+ height="2.6076806"
+ x="-265.75562"
+ y="133.44392"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#b35f0f;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;font-variation-settings:normal;opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+ id="rect891"
+ width="13.460537"
+ height="2.6076806"
+ x="-265.75562"
+ y="139.44395"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#b3b3b3;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect893"
+ width="13.460537"
+ height="2.6076806"
+ x="-265.75562"
+ y="151.44397"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect895"
+ width="13.460537"
+ height="39.461128"
+ x="-265.37628"
+ y="12.954726"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect897"
+ width="13.460537"
+ height="2.6076806"
+ x="-265.37628"
+ y="17.381437"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect899"
+ width="13.460537"
+ height="2.6076806"
+ x="-265.37628"
+ y="23.381422"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect901"
+ width="13.460537"
+ height="2.6076806"
+ x="-265.37628"
+ y="29.381392"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#b35f0f;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect903"
+ width="13.460537"
+ height="2.6076806"
+ x="-265.37628"
+ y="47.381439"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+<rect
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:0.733002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ id="rect905"
+ width="13.460537"
+ height="2.6076806"
+ x="-265.37628"
+ y="35.381439"
+ ry="0"
+ rx="0"
+ transform="rotate(-90)" />
+</g>
+</svg>

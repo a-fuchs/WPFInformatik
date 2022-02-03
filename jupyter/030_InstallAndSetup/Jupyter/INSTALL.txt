@@ -1,0 +1,103 @@
+#==============================================================================
+# Version 1.0.0 2022-01-23
+
+#==============================================================================
+# I. An der Schule:
+#==============================================================================
+
+#------------------------------------------------------------------------------
+1. Installation
+
+   Kopieren Sie bitte **zuerst einmalig** den Ordner "WPFInformatik" der im
+   Ordner "J:\Jupyter-Install" liegt samt Unterordner in Ihr OneDrive.
+   Hier bitte **nicht in einen Unterordner** von OneDrive, sondern
+   direkt das Wurzelverzeichnis des OneDrive-Ordners.
+
+   **Hinweis:**
+   Falls Sie auf Ondrive einen **eigenen Ordner** verwenden wollen:
+   Die Datei "J:\jupyter\startJupyterLab.bat" kopieren und
+   hier die Zeile
+   jupyter-lab --notebook-dir "%OneDrive%\WPFInformatik\jupyter"
+   passend abändern.
+     
+#------------------------------------------------------------------------------
+2. Start
+
+   a) *Wichtig*:
+      Der Ordner "WPFInformatik" im OneDrive muss erreichbar sein!
+      Jupyter hängt sich sonst auf. Einfachstes Rezept in diesem Fall:
+      Neustart des Rechners, oder alle "nodejs"-Prozesse killen.
+      
+   b) Auf "J:\Start Jupyter Lab" doppelklicken,
+      jetzt sollte JupyterLab automatisch starten.
+
+   **Hinweis:** Die Datei "J:\Start Jupyter Lab" ist nur ein Verweis auf die
+   Datei "J:\jupyter\startJupyterLab.bat"
+   Somit können Sie sich die Datei "J:\Start Jupyter Lab" gegbenen Falls dahin
+   kopieren wo Sie es haben wollen.
+
+   
+   
+#==============================================================================
+# II. Zu Hause
+#==============================================================================
+
+#------------------------------------------------------------------------------
+1. Installation
+
+1.1. Windows:
+  * Zur Installation ist Python notwendig.
+    Dieses muss unter Windows erst noch installiert werden.
+    Quelle: "https://www.python.org/downloads/"
+  
+  * Um die Microcontroller ansprechen zu können sind unter Windows die
+    USB-Treiber zu installieren. Sie liegen im Ordner
+    "J:\Jupyter-Install\WindowsDriver" und auch im Ordner
+    "%OneDrive%\WPFInformatik\jupyter\000_InstallAndSetup\WindowsDriver".
+
+  a) Die Datei "J:\Jupyter-Install\setupJupyterLabWindows.bat" in einen Ordner
+     Ihrer Wahl kopieren, z.B. "C:\Users\ich\Documents\schule" und doppelklicken.
+      
+     In dem Ordner, in dem "setupJupyterLabWindows.bat" liegt wird nun ein
+     Ordner "jupyter" angelegt, also im Beispiel
+     "C:\Users\ich\Documents\schule\jupyter".
+      
+  b) In diesen Ordner (dem neu angelegten "juypter") kopieren Sie
+     anschliessend die Datei "J:\Jupyter-Install\startJupyterLab.bat",
+     im Beispiel ergibt sich:
+     "C:\Users\ich\Documents\schule\jupyter\startJupyterLab.bat".
+
+1.2. Linux:
+  a) Die Datei "J:\Jupyter-Install\setupJupyterLabLinux.sh" in einen Ordner
+     Ihrer Wahl kopieren, z.B. "~/lib" und ausführen.
+      
+     In dem Ordner, in dem "setupJupyterLinux.sh" liegt wird nun ein
+     Ordner "jupyter" angelegt, also im Beispiel
+     "~/lib/jupyter".
+      
+  b) z.B in "~/bin" die Datei "J:\Jupyter-Install\startJupyterLab.sh" kopieren
+     und die Pfade darin anpassen.
+      
+      
+2. Start
+#------------------------------------------------------------------------------
+
+  *Wichtig*:
+  Der Ordner "WPFInformatik" im OneDrive muss erreichbar sein!
+  Jupyter hängt sich sonst auf. Einfachstes Rezept in diesem Fall:
+  Neustart des Rechners, oder alle "nodejs"-Prozesse killen.
+  
+2.1. Windows
+  Im Beispiel:
+  Doppelcklick auf die "startJupyterLab.bat" im  Verzeichnis
+  "C:\Users\ich\Documents\schule\jupyter"
+  startet nun Juypter-Lab.
+  
+  *Achtung:*
+  Schliessen des "schwarzen Fensters" (DOS-Console) beendet Jupyter-Lab.
+   
+2.2 Linux:
+  Starten mit "~/bin/startJupyterLab.sh".
+  Beenden mit CTRL-C in der Shell.
+
+#==============================================================================

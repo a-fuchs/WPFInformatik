@@ -1,0 +1,2511 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+ width="210mm"
+ height="297mm"
+ version="1.1"
+ id="svg4"
+ sodipodi:docname="PWM.svg"
+ inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/">
+<metadata
+ id="metadata10">
+<rdf:RDF>
+<cc:Work
+ rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type
+ rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<defs
+ id="defs8">
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker6353"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path6351" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker6271"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path6269" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker10222"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path10220"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker10212"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path10210" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker10202"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path10200"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker10192"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path10190" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker10182"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path10180"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker10172"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path10170" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker10156"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path10154"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker10146"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path10144" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker10136"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path10134"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker10126"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path10124" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker10116"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path10114"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker10106"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path10104" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker10096"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path10094" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker10080"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path10078" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker8675"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path8673" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker5888"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path5886" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker30450"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path30448"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker30440"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path30438" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker30430"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path30428"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker23473"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#7d7d7d;stroke-opacity:1;fill:#7d7d7d;fill-opacity:1"
+ id="path23471" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker23463"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow1Mstart"
+ inkscape:isstock="true">
+<path
+ transform="scale(0.4) translate(10,0)"
+ style="fill-rule:evenodd;stroke:#7d7d7d;stroke-width:1pt;stroke-opacity:1;fill:#7d7d7d;fill-opacity:1"
+ d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+ id="path23461" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker21585"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path21583"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker21575"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path21573"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker17894"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path17892"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker17884"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path17882"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker15386"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#7d7d7d;stroke-opacity:1;fill:#7d7d7d;fill-opacity:1"
+ id="path15384" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker15376"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#7d7d7d;stroke-opacity:1;fill:#7d7d7d;fill-opacity:1"
+ id="path15374" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker15366"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow1Mstart"
+ inkscape:isstock="true">
+<path
+ transform="scale(0.4) translate(10,0)"
+ style="fill-rule:evenodd;stroke:#7d7d7d;stroke-width:1pt;stroke-opacity:1;fill:#7d7d7d;fill-opacity:1"
+ d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+ id="path15364" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker15356"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow1Mstart"
+ inkscape:isstock="true">
+<path
+ transform="scale(0.4) translate(10,0)"
+ style="fill-rule:evenodd;stroke:#7d7d7d;stroke-width:1pt;stroke-opacity:1;fill:#7d7d7d;fill-opacity:1"
+ d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+ id="path15354" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker14538"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path14536"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker14528"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path14526"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker9513"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#7d7d7d;stroke-opacity:1;fill:#7d7d7d;fill-opacity:1"
+ id="path9511" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker9493"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow1Mstart"
+ inkscape:isstock="true">
+<path
+ transform="scale(0.4) translate(10,0)"
+ style="fill-rule:evenodd;stroke:#7d7d7d;stroke-width:1pt;stroke-opacity:1;fill:#7d7d7d;fill-opacity:1"
+ d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+ id="path9491" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="Arrow2Lstart"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Lstart"
+ inkscape:isstock="true">
+<path
+ transform="scale(1.1) translate(1,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#7d7d7d;stroke-opacity:1;fill:#7d7d7d;fill-opacity:1"
+ id="path4764" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker3890"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path3888"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker3870"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path3868"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker3860"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path3858" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker3850"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path3848"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker3840"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path3838" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker3830"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path3828"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker3820"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path3818" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker3810"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path3808"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker3800"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path3798" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker3790"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path3788" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker3780"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path3778"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker7613"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path7611" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker7599"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path7597"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361022"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker7595"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path7593"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker19460"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path19458" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker11943"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path11941" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker11513"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(0.6) rotate(180) translate(0,0)"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:0.99361"
+ id="path11511" />
+</marker>
+<marker
+ inkscape:stockid="Arrow1Send"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="Arrow1Send"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path6739"
+ d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#ffffff;fill-opacity:0.99361022"
+ transform="scale(0.2) rotate(180) translate(6,0)" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="marker8138"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path8136"
+ d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+ transform="scale(0.4)" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker8092"
+ refX="0.0"
+ refY="0.0"
+ orient="auto"
+ inkscape:stockid="TriangleOutM">
+<path
+ transform="scale(0.4)"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+ d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+ id="path8090" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0.0"
+ refX="0.0"
+ id="Arrow2Mend"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path6751"
+ style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#808080;stroke-opacity:1;fill:#808080;fill-opacity:1"
+ d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+ transform="scale(0.6) rotate(180) translate(0,0)" />
+</marker>
+<inkscape:perspective
+ id="perspective63"
+ inkscape:persp3d-origin="150 : 113.33333 : 1"
+ inkscape:vp_z="300 : 170 : 1"
+ inkscape:vp_y="0 : 1000 : 0"
+ inkscape:vp_x="0 : 170 : 1"
+ sodipodi:type="inkscape:persp3d" />
+<clipPath
+ id="clipPath2999"
+ clipPathUnits="userSpaceOnUse">
+<path
+ id="path3001"
+ clip-rule="evenodd"
+ d="m 0,-0.3 155.8,0 0,198.3 L 0,198 0,-0.3 z" />
+</clipPath>
+<marker
+ style="overflow:visible"
+ id="Arrow2Mend-36"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+ id="path3797-9"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker3730"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+ id="path3728"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="TriangleOutM-3"
+ style="overflow:visible">
+<path
+ id="path16020"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3736"
+ style="overflow:visible">
+<path
+ id="path3734"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker3740"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+ id="path3738"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3744"
+ style="overflow:visible">
+<path
+ id="path3742"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker3748"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+ id="path3746"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker3752"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+ id="path3750"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker3756"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+ id="path3754"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3760"
+ style="overflow:visible">
+<path
+ id="path3758"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3764"
+ style="overflow:visible">
+<path
+ id="path3762"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3768"
+ style="overflow:visible">
+<path
+ id="path3766"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3772"
+ style="overflow:visible">
+<path
+ id="path3770"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3776"
+ style="overflow:visible">
+<path
+ id="path3774"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker3780-6"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+ id="path3778-7"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker3784"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+ id="path3782"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3788"
+ style="overflow:visible">
+<path
+ id="path3786"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3792"
+ style="overflow:visible">
+<path
+ id="path3790"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3796"
+ style="overflow:visible">
+<path
+ id="path3794"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="TriangleOutM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3800-5"
+ style="overflow:visible">
+<path
+ id="path3798-3"
+ d="M 5.77,0 -2.88,5 V -5 Z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+ transform="scale(0.4)"
+ inkscape:connector-curvature="0" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker3424-5"
+ style="overflow:visible"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ id="path3422-0"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker4334-8"
+ style="overflow:visible"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ id="path4332-0"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker6889-4"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow1Mstart"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ transform="matrix(0.4,0,0,0.4,4,0)"
+ style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#7d7d7d;stroke-width:1pt;stroke-opacity:1"
+ d="M 0,0 5,-5 -12.5,0 5,5 Z"
+ id="path6887-1" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker6899-1"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend"
+ inkscape:collect="always">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#7d7d7d;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ id="path6897-3" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker7900-5"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow1Mstart"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ transform="matrix(0.4,0,0,0.4,4,0)"
+ style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#7d7d7d;stroke-width:1pt;stroke-opacity:1"
+ d="M 0,0 5,-5 -12.5,0 5,5 Z"
+ id="path7898-9" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker7910-3"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend"
+ inkscape:collect="always">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#7d7d7d;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ id="path7908-4" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker9533-1"
+ style="overflow:visible"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ id="path9531-5"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker9523-0"
+ style="overflow:visible"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ id="path9521-8"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker10547-3"
+ style="overflow:visible"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ id="path10545-5"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker10537-6"
+ style="overflow:visible"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ id="path10535-5"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker11493-9"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow1Mstart"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ transform="matrix(0.4,0,0,0.4,4,0)"
+ style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#7d7d7d;stroke-width:1pt;stroke-opacity:1"
+ d="M 0,0 5,-5 -12.5,0 5,5 Z"
+ id="path11491-9" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker11503-0"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend"
+ inkscape:collect="always">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#7d7d7d;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ id="path11501-7" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker17080-6"
+ style="overflow:visible"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ id="path17078-3"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker17070-7"
+ style="overflow:visible"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ id="path17068-6"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker17894-1"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path17892-5"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker17884-0"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path17882-6"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ style="overflow:visible"
+ id="marker18751-5"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow1Mstart"
+ inkscape:isstock="true"
+ inkscape:collect="always">
+<path
+ transform="matrix(0.4,0,0,0.4,4,0)"
+ style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#7d7d7d;stroke-width:1pt;stroke-opacity:1"
+ d="M 0,0 5,-5 -12.5,0 5,5 Z"
+ id="path18749-0" />
+</marker>
+<marker
+ inkscape:isstock="true"
+ style="overflow:visible"
+ id="marker18761-8"
+ refX="0"
+ refY="0"
+ orient="auto"
+ inkscape:stockid="Arrow2Mend"
+ inkscape:collect="always">
+<path
+ transform="scale(-0.6)"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ style="fill:#7d7d7d;fill-opacity:1;fill-rule:evenodd;stroke:#7d7d7d;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ id="path18759-1" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker21585-2"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path21583-2"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ inkscape:stockid="Arrow2Mend"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker21575-6"
+ style="overflow:visible"
+ inkscape:isstock="true">
+<path
+ id="path21573-9"
+ style="fill:#000000;fill-opacity:0.99361;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+ d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+ transform="scale(-0.6)" />
+</marker>
+<marker
+ inkscape:stockid="DotM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="DotM"
+ style="overflow:visible">
+<path
+ id="path3733"
+ d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+ transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+</marker>
+<marker
+ inkscape:stockid="DotM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker2512"
+ style="overflow:visible">
+<path
+ id="path2510"
+ d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+ transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+</marker>
+<marker
+ inkscape:stockid="DotM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker2516"
+ style="overflow:visible">
+<path
+ id="path2514"
+ d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+ transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+</marker>
+<marker
+ inkscape:stockid="DotM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker2520"
+ style="overflow:visible">
+<path
+ id="path2518"
+ d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+ transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+</marker>
+<marker
+ inkscape:stockid="DotM"
+ orient="auto"
+ refY="0"
+ refX="0"
+ id="marker2524"
+ style="overflow:visible">
+<path
+ id="path2522"
+ d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+ style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none;marker-end:none"
+ transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+</marker>
+</defs>
+<sodipodi:namedview
+ pagecolor="#ffffff"
+ bordercolor="#666666"
+ borderopacity="1"
+ objecttolerance="10"
+ gridtolerance="10"
+ guidetolerance="10"
+ inkscape:pageopacity="0"
+ inkscape:pageshadow="2"
+ inkscape:window-width="2560"
+ inkscape:window-height="1375"
+ id="namedview6"
+ showgrid="false"
+ units="mm"
+ inkscape:zoom="1.1125146"
+ inkscape:cx="386.06233"
+ inkscape:cy="325.38897"
+ inkscape:window-x="0"
+ inkscape:window-y="0"
+ inkscape:window-maximized="1"
+ inkscape:current-layer="svg4"
+ showguides="true"
+ inkscape:snap-global="true"
+ inkscape:document-rotation="0"
+ inkscape:guide-bbox="true"
+ inkscape:pagecheckerboard="0"
+ inkscape:document-units="mm" />
+<g
+ id="g6137"
+ style="font-weight:400;font-size:medium;font-family:Arial;fill:#ffffff;stroke:none"
+ transform="matrix(0.03030762,0,0,0.03030762,1202.9145,456.51154)" />
+<g
+ id="g8320"
+ transform="matrix(0.8453276,0,0,0.8453276,60.392381,492.95529)"
+ style="stroke-width:1.18297338" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:20px;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="2663.3357"
+ y="1005.2179"
+ id="text7617" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:20px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="320.44522"
+ y="614.37396"
+ id="text25329"><tspan
+ sodipodi:role="line"
+ id="tspan25327"
+ x="320.44522"
+ y="614.37396" /></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="144.23953"
+ y="193.03737"
+ id="text6831"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan6829"
+ x="144.23953"
+ y="193.03737"
+ style="stroke-width:1px">: Tastgrad / Aussteuergrad / engl.: duty cycle</tspan></text>
+<path
+ inkscape:connector-curvature="0"
+ id="path6825-1"
+ d="M 220.17851,241.35436 V 220.6346"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#878787;stroke-width:0.999996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ sodipodi:nodetypes="cc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:1.33333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 123.86424,241.12862 h 8.73941 v -0.3178"
+ id="path6130-0"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path3420-4"
+ d="M 131.45894,272.42146 V 229.36372 226.1072"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker3424-5);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path4330-2"
+ d="m 122.87505,264.86574 h 346.47962 26.20476"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker4334-8);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="90.366554"
+ y="243.64215"
+ id="text4794-7"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan4792-4"
+ x="90.366554"
+ y="243.64215"
+ style="stroke-width:0.999999px">VCC</tspan></text>
+<path
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ d="m 308.72281,264.72566 v -23.3713 h 46.0336 v 23.3713 h 43.9268 v -23.3713 h 44.6175 v 23.3713 h 26.4867"
+ id="path18700-0"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#f21e1e;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ d="m 220.17851,264.72566 v -23.3713 h 43.9267 v 23.3713 h 44.6176"
+ id="path18698-3"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ d="m 131.50021,264.72566 v -23.3713 h 44.0608 v 23.3713 h 44.6175"
+ id="path28027-2"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ inkscape:connector-curvature="0"
+ id="path28456-8"
+ d="M 220.23409,288.9444 V 265.36991"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#878787;stroke-width:0.999992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ sodipodi:nodetypes="cc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="496.65927"
+ y="353.32034"
+ id="text6831-0"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan6829-3"
+ x="496.65927"
+ y="353.32034"
+ style="stroke-width:1px">duty cycle</tspan></text>
+<path
+ inkscape:connector-curvature="0"
+ id="path6881-7"
+ d="m 262.31358,229.00263 -11.02631,4e-5 m -15.194,3e-5 -14.45743,3e-5"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#7d7d7d;stroke-width:0.873997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:url(#marker6889-4);marker-end:url(#marker6899-1);enable-background:accumulate"
+ sodipodi:nodetypes="cccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8607px;line-height:16.0759px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="240.17517"
+ y="232.71393"
+ id="text6885-0"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan6883-0"
+ x="240.17517"
+ y="232.71393"
+ style="stroke-width:1px">t<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan7691-3">p</tspan></tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8607px;line-height:16.0759px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="494.38821"
+ y="278.82639"
+ id="text7878-4"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan7876-9"
+ x="494.38821"
+ y="278.82639"
+ style="stroke-width:1px">t<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan7874-2" /></tspan></text>
+<path
+ inkscape:connector-curvature="0"
+ id="path7892-7"
+ d="m 306.899,280.98992 -31.21771,4e-5 m -19.10087,3e-5 -34.19092,3e-5"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#7d7d7d;stroke-width:0.874;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:url(#marker7900-5);marker-end:url(#marker7910-3);enable-background:accumulate"
+ sodipodi:nodetypes="cccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8607px;line-height:16.0759px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="261.42682"
+ y="286.44907"
+ id="text7896-4"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan7894-2"
+ x="261.42682"
+ y="286.44907"
+ style="stroke-width:1px">T</tspan></text>
+<path
+ inkscape:connector-curvature="0"
+ id="path8734-5"
+ d="M 309.11049,288.9444 V 265.36991"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#878787;stroke-width:0.999992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ sodipodi:nodetypes="cc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ inkscape:connector-curvature="0"
+ id="path8751-2"
+ d="M 263.95378,241.35435 V 219.9106"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#878787;stroke-width:0.999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ sodipodi:nodetypes="cc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:1.33333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 123.86424,555.12862 h 8.73941 v -0.3178"
+ id="path9439-4"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path9441-4"
+ d="M 131.45894,586.42146 V 543.36372 540.1072"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker9533-1);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path9443-3"
+ d="m 122.87505,578.86574 h 361.69311 10.99127"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker9523-0);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+ d="m 308.72281,578.72566 v -23.3713 h 24.0336 v 23.3713 h 65.9268 v -23.3713 h 22.6175 v 23.3713 h 63.44009"
+ id="path21411-8"
+ sodipodi:nodetypes="ccccccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#f21e1e;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ d="m 220.17851,578.72566 v -23.3713 h 25.9267 v 23.3713 h 62.6176"
+ id="path21409-6"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+ d="m 131.50021,578.72566 v -23.3713 h 22.0608 v 23.3713 h 66.6175"
+ id="path9449-0"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8607px;line-height:16.0759px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="494.38821"
+ y="592.82642"
+ id="text9465-8"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan9463-9"
+ x="494.38821"
+ y="592.82642"
+ style="stroke-width:1px">t<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan9461-2" /></tspan></text>
+<path
+ style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:1.33333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 123.86424,615.12862 h 8.73941 v -0.3178"
+ id="path10487-2"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path10489-3"
+ d="M 131.45894,646.42148 V 603.36372 600.1072"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker10547-3);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path10491-1"
+ d="m 122.87505,638.86578 h 346.47962 26.20476"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker10537-6);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8607px;line-height:16.0759px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="494.38821"
+ y="652.82642"
+ id="text10505-8"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan10503-3"
+ x="494.38821"
+ y="652.82642"
+ style="stroke-width:1px">t<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan10501-4" /></tspan></text>
+<path
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#878787;stroke-width:0.999992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ d="M 220.23409,662.94418 V 349.93534"
+ id="path11475-2"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ inkscape:connector-curvature="0"
+ id="path11483-2"
+ d="m 306.899,654.98988 -31.21771,10e-5 m -19.10087,0 H 222.3895"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#7d7d7d;stroke-width:0.874;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:url(#marker11493-9);marker-end:url(#marker11503-0);enable-background:accumulate"
+ sodipodi:nodetypes="cccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8607px;line-height:16.0759px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="261.42682"
+ y="660.44897"
+ id="text11487-4"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan11485-5"
+ x="261.42682"
+ y="660.44897"
+ style="stroke-width:1px">T</tspan></text>
+<path
+ inkscape:connector-curvature="0"
+ id="path11489-1"
+ d="M 309.11049,662.94418 V 349.93534"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#878787;stroke-width:0.999992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ sodipodi:nodetypes="cc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ inkscape:connector-curvature="0"
+ id="path15324-7"
+ d="M 220.23409,542.9444 V 519.36991"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#878787;stroke-width:0.999992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ sodipodi:nodetypes="cc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ inkscape:connector-curvature="0"
+ id="path15346-5"
+ d="M 309.11049,542.9444 V 519.36991"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#878787;stroke-width:0.999992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ sodipodi:nodetypes="cc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:1.33333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 123.86424,495.12862 h 8.73941 v -0.3178"
+ id="path17050-7"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path17052-1"
+ d="M 131.45894,526.42146 V 483.36372 480.1072"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker17080-6);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path17054-6"
+ d="m 122.87505,518.86574 h 346.47962 26.20476"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker17070-7);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+ d="m 308.72281,518.72566 v -23.3713 h 46.0336 v 23.3713 h 43.9268 v -23.3713 h 44.6175 v 23.3713 h 41.47548"
+ id="path19777-9"
+ sodipodi:nodetypes="ccccccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#f21e1e;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ d="m 220.17851,518.72566 v -23.3713 h 43.9267 v 23.3713 h 44.6176"
+ id="path19775-8"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+ d="m 131.50021,518.72566 v -23.3713 h 44.0608 v 23.3713 h 44.6175"
+ id="path17060-1"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8607px;line-height:16.0759px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="494.38821"
+ y="532.82642"
+ id="text17066-3"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan17064-3"
+ x="494.38821"
+ y="532.82642"
+ style="stroke-width:1px">t<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan17062-3" /></tspan></text>
+<path
+ style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:1.33333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 123.86424,375.12862 h 8.73941 v -0.3178"
+ id="path17864-7"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path17866-9"
+ d="M 131.45894,406.42146 V 363.36372 360.1072"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker17894-1);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path17868-8"
+ d="m 122.87505,398.86574 h 346.47962 26.20476"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker17884-0);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="106.81598"
+ y="378.99042"
+ id="text17872-6"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan17870-7"
+ x="106.81598"
+ y="378.99042"
+ style="stroke-width:0.999999px">U<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan25181-0">max</tspan></tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8607px;line-height:16.0759px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="494.38821"
+ y="412.82639"
+ id="text17880-4"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan17878-8"
+ x="494.38821"
+ y="412.82639"
+ style="stroke-width:1px">t<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan17876-4" /></tspan></text>
+<path
+ style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+ d="M 308.98076,375.17509 H 484.84582"
+ id="path18706-8"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#f21e1e;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ d="m 220.31551,375.17509 h 88.66526"
+ id="path18704-1"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+ d="m 131.50021,375.17509 h 88.8153"
+ id="path18694-6"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ inkscape:connector-curvature="0"
+ id="path18743-8"
+ d="m 306.899,356.98992 -31.21771,4e-5 m -19.10087,3e-5 -34.19092,3e-5"
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#7d7d7d;stroke-width:0.874;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:url(#marker18751-5);marker-end:url(#marker18761-8);enable-background:accumulate"
+ sodipodi:nodetypes="cccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8607px;line-height:16.0759px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="261.42682"
+ y="362.44907"
+ id="text18747-5"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan18745-2"
+ x="261.42682"
+ y="362.44907"
+ style="stroke-width:1px">T</tspan></text>
+<path
+ style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+ d="M 308.98077,638.95038 H 484.83402"
+ id="path21437-1"
+ sodipodi:nodetypes="cc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#f21e1e;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ d="m 220.31551,638.95038 h 88.66526"
+ id="path21439-9"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+ d="m 131.50021,638.95038 h 88.8153"
+ id="path21441-9"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:1.33333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill stroke markers;stop-color:#000000"
+ d="m 123.86424,435.12862 h 8.73941 v -0.3178"
+ id="path21551-6"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path21553-0"
+ d="M 131.45894,466.42146 V 423.36372 420.1072"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker21585-2);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ sodipodi:nodetypes="ccc"
+ inkscape:connector-curvature="0"
+ id="path21555-6"
+ d="m 122.87505,458.86574 h 346.47962 26.20476"
+ style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.99361;fill-rule:nonzero;stroke:#000000;stroke-width:1.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker21575-6);paint-order:fill stroke markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+ d="m 308.72281,458.72566 v -23.3713 h 68.0336 v 23.3713 h 21.9268 v -23.3713 h 66.6175 v 23.3713 h 19.16085"
+ id="path21561-4"
+ sodipodi:nodetypes="ccccccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#f21e1e;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+ d="m 220.17851,458.72566 v -23.3713 h 65.9267 v 23.3713 h 22.6176"
+ id="path21563-9"
+ sodipodi:nodetypes="ccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<path
+ style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:none;fill-opacity:1;stroke:#1e28f2;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+ d="m 131.50021,458.72566 v -23.3713 h 66.0608 v 23.3713 h 22.6175"
+ id="path21565-9"
+ sodipodi:nodetypes="ccccc"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8607px;line-height:16.0759px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="494.38821"
+ y="472.82639"
+ id="text21571-0"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan21569-8"
+ x="494.38821"
+ y="472.82639"
+ style="stroke-width:1px">t<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan21567-9" /></tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="119.3103"
+ y="363.48495"
+ id="text25179-3"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25177-1"
+ x="119.3103"
+ y="363.48495"
+ style="stroke-width:0.999999px">U</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="106.81598"
+ y="438.99039"
+ id="text25187-4"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25185-8"
+ x="106.81598"
+ y="438.99039"
+ style="stroke-width:0.999999px">U<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan25183-9">max</tspan></tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="106.81598"
+ y="498.99036"
+ id="text25193-6"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25191-7"
+ x="106.81598"
+ y="498.99036"
+ style="stroke-width:0.999999px">U<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan25189-7">max</tspan></tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="106.81598"
+ y="558.99042"
+ id="text25199-3"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25197-7"
+ x="106.81598"
+ y="558.99042"
+ style="stroke-width:0.999999px">U<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan25195-1">max</tspan></tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="106.81598"
+ y="618.99042"
+ id="text25205-2"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25203-2"
+ x="106.81598"
+ y="618.99042"
+ style="stroke-width:0.999999px">U<tspan
+ style="font-size:65%;baseline-shift:sub"
+ id="tspan25201-1">max</tspan></tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="119.3103"
+ y="423.48495"
+ id="text25209-5"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25207-0"
+ x="119.3103"
+ y="423.48495"
+ style="stroke-width:0.999999px">U</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="119.3103"
+ y="483.48499"
+ id="text25213-9"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25211-0"
+ x="119.3103"
+ y="483.48499"
+ style="stroke-width:0.999999px">U</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="119.3103"
+ y="543.48499"
+ id="text25217-4"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25215-0"
+ x="119.3103"
+ y="543.48499"
+ style="stroke-width:0.999999px">U</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.56022px;line-height:11.9503px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="119.3103"
+ y="603.48499"
+ id="text25221-1"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25219-3"
+ x="119.3103"
+ y="603.48499"
+ style="stroke-width:0.999999px">U</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+ x="498.42038"
+ y="657.51996"
+ id="text25297-7"
+ transform="translate(14.06551,-268.42012)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25295-4"
+ x="498.42038"
+ y="657.51996">100%</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+ x="507.72382"
+ y="717.51996"
+ id="text25301-1"
+ transform="translate(14.06551,-268.42012)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25299-1"
+ x="507.72382"
+ y="717.51996">75%</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+ x="507.72382"
+ y="777.51996"
+ id="text25305-3"
+ transform="translate(14.06551,-268.42012)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25303-0"
+ x="507.72382"
+ y="777.51996">50%</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+ x="507.72382"
+ y="837.51996"
+ id="text25309-3"
+ transform="translate(14.06551,-268.42012)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25307-2"
+ x="507.72382"
+ y="837.51996">25%</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+ x="516.82501"
+ y="897.51996"
+ id="text25313-1"
+ transform="translate(14.06551,-268.42012)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25311-7"
+ x="516.82501"
+ y="897.51996">0%</tspan></text>
+<g
+ id="g25353-5"
+ transform="translate(-156.49404,-256.5775)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png">
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8445px;line-height:18.5557px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="275.85864"
+ y="440.29327"
+ id="text25319-6"><tspan
+ sodipodi:role="line"
+ id="tspan25317-5"
+ x="275.85864"
+ y="440.29327"
+ style="stroke-width:1px">t<tspan
+ style="font-size:9.64899px;baseline-shift:sub;stroke-width:1px"
+ id="tspan25315-4">p</tspan></tspan></text>
+<path
+ style="color:#000000;font-variation-settings:normal;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:fill stroke markers;stop-color:#000000;stop-opacity:1"
+ d="m 267.83836,446.77877 h 24.5289"
+ id="path25321-2" />
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="276.45422"
+ y="458.99927"
+ id="text25325-2"><tspan
+ sodipodi:role="line"
+ id="tspan25323-1"
+ x="276.45422"
+ y="458.99927"
+ style="stroke-width:1px">T</tspan></text>
+</g>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+ x="139.58492"
+ y="420.76816"
+ id="text25339-7"
+ transform="translate(4.62743,-259.97069)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25337-2"
+ x="139.58492"
+ y="420.76816"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">: Impulsdauer / Pulsweite</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:20px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+ x="103.63938"
+ y="419.78677"
+ id="text25345-4"
+ transform="translate(14.06551,-260.42012)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25343-1"
+ x="103.63938"
+ y="419.78677"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:20px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">t<tspan
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;line-height:20px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:sub;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+ id="tspan25341-6">p</tspan></tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:20px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="118.33379"
+ y="132.36124"
+ id="text25357-5"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25355-7"
+ x="118.33379"
+ y="132.36124">T</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+ x="170.33484"
+ y="393.47797"
+ id="text25361-8"
+ transform="translate(-25.93396,-261.11671)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25359-5"
+ x="170.33484"
+ y="393.47797">: Periodendauer</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.186px;line-height:22.7326px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.95364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+ x="170.33484"
+ y="393.47797"
+ id="text25412-9"
+ transform="matrix(0.51186588,0,0,0.51186588,148.40349,95.02155)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25410-2"
+ x="170.33484"
+ y="393.47797"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.186px;line-height:22.7326px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.95364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1">Periodendauer</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5196px;line-height:15.6495px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.34492px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+ x="170.33484"
+ y="393.47797"
+ id="text25416-7"
+ transform="matrix(0.74353924,0,0,0.74353924,95.05243,-73.191975)"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25414-3"
+ x="170.33484"
+ y="393.47797"
+ style="stroke-width:1.34492px">Pulsweite</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:20px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="178.15752"
+ y="70.413017"
+ id="text25738"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ x="178.15752"
+ y="70.413017"
+ id="tspan25756">auch: PDM Pulsdauermodulation, PLM Pulslängenmodulation,</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.4372px;line-height:30.5465px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="105.99765"
+ y="47.730812"
+ id="text25742"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25740"
+ x="105.99765"
+ y="47.730812"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:1px"><tspan
+ style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+ id="tspan25748">PWM</tspan>: <tspan
+ style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+ id="tspan25750">P</tspan>uls<tspan
+ style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+ id="tspan25752">w</tspan>eiten<tspan
+ style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+ id="tspan25754">m</tspan>odulation</tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:20px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ x="216.26891"
+ y="92.342613"
+ id="text25762"
+ inkscape:export-xdpi="300"
+ inkscape:export-ydpi="300"
+ inkscape:export-filename="/home/alfred/OneDrive/WPF_Informatik/public/sus/990_Grundlagen/PWM/PWM.png"><tspan
+ sodipodi:role="line"
+ id="tspan25760"
+ x="216.26891"
+ y="92.342613"> PBM Pulsbreitenmodulation, oder Unterschwingungsverfahren</tspan></text>
+</svg>
