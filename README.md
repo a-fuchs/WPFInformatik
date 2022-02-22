@@ -16,9 +16,11 @@
 * Zur Installation ist [Python](https://www.python.org) notwendig.  
   Dieses muss unter Windows erst noch installiert werden (zum [Download](https://www.python.org/downloads/)).
   
-* Um die Microcontroller ansprechen zu können sind unter Windows die
-  **USB-Treiber** zu **installieren**.  
-  Diese liegen im zuvor heruntergeladenen Ordner unter `WPFInformatik/jupyter/000_InstallAndSetup/WindowsDriver`, oder [hier](https://github.com/a-fuchs/WPFInformatik/tree/main/jupyter/030_InstallAndSetup/WindowsDriver)).  
+* Um die über USB angeschlossenen Microcontroller ansprechen zu können, muss Windows die entsprechenden Treiber geladen haben.   
+  Falls das bereits so ist, erscheint im Gerätemanager, dort in der Zeile: Anschlüsse (COM & LPT),   
+  geöffnet mit > der Eintrag: Silicon Labs CP210x USB to UART Bridge (COM x).   
+  Falls nicht, ist der entsprechende **USB-Treiber** zu **installieren**.   
+  Diese Treiber liegen im zuvor heruntergeladenen Ordner unter `WPFInformatik/jupyter/000_InstallAndSetup/WindowsDriver`, oder [hier](https://github.com/a-fuchs/WPFInformatik/tree/main/jupyter/030_InstallAndSetup/WindowsDriver)).  
   Achtung: die Treiber müssen vorher noch entpackt werden!
 
 * Die Datei `setupJupyterLabWindows.bat`  
