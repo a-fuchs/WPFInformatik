@@ -27,7 +27,7 @@ ECHO Set current folder  %__CD__%
 
 
 ECHO. & ECHO ##########################################
-ECHO Create virtual environmend: %__CD__%env
+ECHO Create virtual environment: %__CD__%env
 python -m venv env
 
 
