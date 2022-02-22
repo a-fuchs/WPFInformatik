@@ -62,5 +62,3 @@
 ### Linux
 *  **Starten** mit `~/bin/startJupyterLab.sh`.
 *  **Beenden** mit CTRL-C in der entsprechende Shell.
-
-#==============================================================================
