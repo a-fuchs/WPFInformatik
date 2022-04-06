@@ -5,10 +5,22 @@
 
 ---
 ## Download des Skripts und der zugehörigen Dateien
+### Direkter download
 * Die ZIP-Datei [WPFInformatik-main.zip](https://github.com/a-fuchs/WPFInformatik/archive/refs/heads/main.zip) direkt herunterladen, oder wie im Screenshot
- [<img src="images/DownloadFromGitHub.png" width="450">](images/DownloadFromGitHub.png).  
- Falls Sie `git` installiert haben: am besten initial mit `git clone https://github.com/a-fuchs/WPFInformatik`.
+  [<img src="images/DownloadFromGitHub.png" width="450">](images/DownloadFromGitHub.png).
 * WPFInformatik-main.zip **entpacken**, den **entpackten** Ordner `WPFInformatik-main` in `WPFInformatik` umbennen und dann an den Platz ihrer Wahl schieben (z.B. OneDrive der Schule).
+ 
+### Besser: Download über `git`
+ `git clone https://github.com/a-fuchs/WPFInformatik.git`
+ * Wurde nichts verändert: Updaten mit `git pull`
+ * Wurde was verändert:
+   `git checkout main` und dann `git reset --hard origin/main`
+
+#### Git unter Windows installieren
+* `winget install --id Git.Git -e --source winget`  
+  in der Powershell eingeben, dann nach der automatischen Installation Neustart der Powershell.
+* Oder direkter download von http://git-scm.com/download/win und dann installieren.
+
 
 ---
 ## Installation von [JupyterLab](https://jupyter.org/)
@@ -64,18 +76,3 @@
 ### Linux
 *  **Starten** mit `~/bin/startJupyterLab.sh`.
 *  **Beenden** mit CTRL-C in der entsprechende Shell.
-
-
-# Git
-http://git-scm.com/download/win
-or simple open Powershell and type:  
-winget install --id Git.Git -e --source winget  
-then close and reopen powershell, now git is available.  
-
-git clone https://github.com/a-fuchs/WPFInformatik.git
-
-Update: git pull
-
-or
-git checkout main
-git reset --hard origin/main
