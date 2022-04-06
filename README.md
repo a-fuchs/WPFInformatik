@@ -64,3 +64,18 @@
 ### Linux
 *  **Starten** mit `~/bin/startJupyterLab.sh`.
 *  **Beenden** mit CTRL-C in der entsprechende Shell.
+
+
+# Git
+http://git-scm.com/download/win
+or simple open Powershell and type:  
+winget install --id Git.Git -e --source winget  
+then close and reopen powershell, now git is available.  
+
+git clone https://github.com/a-fuchs/WPFInformatik.git
+
+Update: git pull
+
+or
+git checkout main
+git reset --hard origin/main
