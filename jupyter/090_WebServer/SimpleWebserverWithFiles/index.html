@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>SimpleCar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
+        <link href="default.css" rel="stylesheet">
+        <script src="default.js" defer></script>
+    </head>
+    <body>
+        <form oninput="sliderSpeedOutput.value=sliderSpeed.value">
+            <p class="clsOutput">Speed: <output name="sliderSpeedOutput" id="idSliderSpeedOutput" for="idSliderSpeed">0</output></p>
+            <p><input type="range" min="-500" max="500" class="slider" name="sliderSpeed" id="idSliderSpeed"/></p>
+            <p><input type="button" class="button" id="idButtonStop" value="Stop"/></p>
+        </form>
+    </body>
+</html>
