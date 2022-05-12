@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #AAAAAA;
+}
+
+#idMainContainer {
+    width: 80vh;
+    height: 80vw;
+    max-width: 80vw;
+    max-height: 80vh;
+    background-color: #AAAAAA;
+}
+
+#idStickContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    touch-action: none;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+#idStick {
+    width: 80px;
+    height: 80px;
+    background-color: #AAAAFF;
+    border: 10px solid #4444FF;
+    border-radius: 50%;
+    touch-action: none;
+    user-select: none;
+}
+
+#idStick:active {
+    background-color: #EEEEFF;
+}
+
+#idStick:hover {
+    cursor: pointer;
+    border: 12px solid #4444AA;
+}
+
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 2px;
+    cursor: pointer;
+}
