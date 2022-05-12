@@ -3,65 +3,65 @@ document.addEventListener(
     function() { new RemoteControllApp(); },
     false
 );
-  
-class RemoteControllApp
+
+
+class DataSender
 {
-    static ROUND_N = 3;
-    
     constructor()
     {
-        this.strLastUrl = undefined
-        
-        let htmlSliderSpeed       = document.getElementById( "idSliderSpeed" );
-        let htmlOutputSliderSpeed = document.getElementById( "idSliderSpeedOutput" );
-
-        let htmlButtonStop        = document.getElementById( "idButtonStop" );
-
-        let bIsWaitingSpeed       = false; // only to avoid "overload"
-
-        htmlOutputSliderSpeed.innerHTML     = htmlSliderSpeed.value;
-
-
-        htmlButtonStop.addEventListener(
-            "click",
-            function() {
-                htmlSliderSpeed.value = 0;
-                htmlSliderSpeed.dispatchEvent(new Event('input', { bubbles: true }));
-            }
-        )
-
-        let objThis = this
-        
-        htmlSliderSpeed.addEventListener(
-            "input",
-            function( _event ) {
-                objThis.sendAjaxRequest( "/speed/" + _event.target.value, strResult => console.log( strResult ) );
-            }
-        )
+        this.isWaiting  = false;
+        this.strLastUrl = undefined;
     }
     
-    
-    roundn( _num, _n = JoystickApp.ROUND_N )
+    send( _url )
     {
-        return parseFloat((Math.round(_num * 10**_n) / 10**_n).toFixed(_n));
-    }
-    
-    
-    sendAjaxRequest( _url, _responseHandler = undefined )
-    {
-        let objThis = this;
-        
         if ( this.isWaiting )
         {
-            objThis.strLastUrl = _url
-            return
+            this.strLastUrl = _url;
         }
+        else
+        {
+            this.isWaiting  = true;
+            this.strLastUrl = undefined;
+
+            this.doSend( _url );
+        }
+    }    
+
+    doSend( _url )
+    {
+        this.isWaiting = false;
+    }
+}
+
+
+class ConsoleDataSender extends DataSender
+{
+    constructor()
+    {
+        super();
+    }
+    
+    doSend( _url )
+    {
+        console.log( "Sending: " + _url );
         
-        this.isWaiting = true;
-                
-        objThis.strLastUrl = undefined
-        
-        var xhttp = new XMLHttpRequest();
+        this.isWaiting = false;
+    }
+}
+
+
+class AjaxDataSender extends DataSender
+{
+    constructor()
+    {
+        super();
+    }
+    
+    doSend( _url )
+    {
+        let objThis = this;
+        let xhttp   = new XMLHttpRequest();
         
         xhttp.open( "GET", _url, true );
         
@@ -84,13 +84,7 @@ class RemoteControllApp
 
                 if ( status === 0 || (status >= 200 && status < 400) )
                 {
-                    // The request has been completed successfully
-                    if ( _responseHandler !== undefined )
-                    {
-                        _responseHandler( xhttp.responseText );
-                    }
-                    
-                    console.log( "Status " + status  + " Response text " + xhttp.responseText )
+                    console.log( "Status " + status  + " Response text " + xhttp.responseText );
                 }
                 else
                 {
@@ -101,14 +95,61 @@ class RemoteControllApp
                 
                 if ( objThis.strLastUrl != undefined )
                 {
-                    objThis.sendAjaxRequest( objThis.strLastUrl ) 
+                    console.log( "==> Sending pending url: " + objThis.strLastUrl );
+                    objThis.send( objThis.strLastUrl );
                 }
 
             }
         };
         
-        // console.log( "Send: " + _url )
+        console.log( "Send: " + _url );
+        
         xhttp.send();
     }    
+}
+
+
+
+class RemoteControllApp
+{
+    static ROUND_N = 3;
+    
+    static roundn( _num, _n = RemoteControllApp.ROUND_N )
+    {
+        return parseFloat((Math.round(_num * 10**_n) / 10**_n).toFixed(_n));
+    }
+    
+    constructor()
+    {
+        let htmlSliderSpeed       = document.getElementById( "idSliderSpeed" );
+        let htmlOutputSliderSpeed = document.getElementById( "idSliderSpeedOutput" );
+
+        let htmlButtonStop        = document.getElementById( "idButtonStop" );
+
+        let bIsWaitingSpeed       = false; // only to avoid "overload"
+
+        // htmlOutputSliderSpeed.innerHTML = htmlSliderSpeed.value;
+        
+        let iSliderMaxAbs = Math.max( Math.abs(htmlSliderSpeed.min), Math.abs(htmlSliderSpeed.max) );
+        
+        htmlButtonStop.addEventListener(
+            "click",
+            function() {
+                htmlSliderSpeed.value = 0;
+                htmlSliderSpeed.dispatchEvent(new Event('input', { bubbles: true }));
+            }
+        )
+
+        let dataSender = new AjaxDataSender(); // ConsoleDataSender();
+        
+        htmlSliderSpeed.addEventListener(
+            "input",
+            function( _event ) {
+                dataSender.send( "/speed/" + RemoteControllApp.roundn( _event.target.value/iSliderMaxAbs ) ); //, strResult => console.log( strResult ) );
+            }
+        )
+    }
+    
+    
 }
 
