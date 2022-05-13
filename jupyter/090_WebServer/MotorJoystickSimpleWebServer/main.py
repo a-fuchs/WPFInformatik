@@ -1,9 +1,6 @@
 #######################################
 # Constants
 
-# ID_LED = 13 # Esp8266: Croduino 
-ID_LED = 25 # Esp32 HeltTec
-# ID_LED = 14 # Esp32 NodeMCU, external LED
 
 #======================================
 SSID        = "ESP minimal http-server"
@@ -15,11 +12,6 @@ POLL_TIME_MILLIS = 0
 
 #######################################
 # Init
-
-from machine import PWM, Pin
-
-led = PWM( Pin(25, Pin.OUT), freq=1000, duty=0)  # 25 HelTec, 13 Croduino
-
 
 #======================================
 # Typical code for setting up the controller as access point.
@@ -170,7 +162,7 @@ try:
 
                     # Here You have gear in[-1;1] and speed in [-1;1].
                     # Change this for Your needs.
-                    print( "Set: Gear = {}, speed = {}".format( fGear, fSpeed ) )
+                    #print( "Set: Gear = {}, speed = {}".format( fGear, fSpeed ) )
    
                     motorL.setSpeed( fSpeed + fGear )
                     motorR.setSpeed( fSpeed - fGear )
@@ -224,4 +216,3 @@ finally:
 
     import gc
     gc.collect()
-    

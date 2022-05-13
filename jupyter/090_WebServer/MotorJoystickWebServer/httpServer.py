@@ -3,7 +3,9 @@ MAX_REQUEST_LENGTH = 1024
 #================================================
 
 import network
-import socket
+import socket # usocket
+import select # uselect
+
 import info
 import ubinascii
 import re
@@ -37,6 +39,9 @@ class RequestHandler :
         socketClient.send( "; charset=UTF-8\n"     )
         socketClient.send( "Connection: close\n\n" )
 
+    def deinit():
+        pass
+    
     def __str__( self ) :
         return "Name: " + self.__class__.__name__ + " Response type: " + self._strResponseType + " Content type: " + self._strContentType
     
@@ -77,17 +82,20 @@ class Error404RequestHandler( FileRequestHandler ) :
 
 #================================================
   
-class SimpleAccessPointHttpServer:
-    def __init__( self ) :
+class AccessPointHttpServer:
+    def __init__( self, pollTimeMillis = 100 ) :
         self.ipAddress  = "?.?.?.?"
         self.subnetMask = self.ipAddress
         self.gateway    = self.ipAddress
         self.dnsServer  = self.ipAddress
         self.macAddress = "?:?:?:?:?:?"
-        self.objSocket  = None
+        self.socketServer  = None
         
+        self.pollTimeMillis = pollTimeMillis
+        self.poll = select.poll()
+
         self.aPathRequestHandler    = []
-        self.error404RequestHandler = Error404RequestHandler( "/resources/error404.html" )
+        self.error404RequestHandler = Error404RequestHandler( "/error404.html" )
         
         
     def start( self, ssid = "ESP32 http server", password = "123123123123", maxClients = 5 ):
@@ -100,13 +108,32 @@ class SimpleAccessPointHttpServer:
 
         self.wlanAccessPoint.active( True )                  # activate the interface
 
-        print( self.wlanAccessPoint.ifconfig()[0] )
+        # print( self.wlanAccessPoint.ifconfig()[0] )
 
-        self.objSocket = socket.socket( socket.AF_INET, socket.SOCK_STREAM )
+        # A internet stream server-socket: this server-socket creates the clientSockets.
+        self.socketServer = socket.socket( socket.AF_INET, socket.SOCK_STREAM )
+        
+        
+        # To prevent "OSError: [Errno 98] Address already in use",
+        # when a previous execution has left the socket in a TIME_WAIT state,
+        # and so can’t be immediately reused:
+
+        #   SOL_SOCKET:   Socket Options That Apply to the Socket Layer
+        #   SO_REUSEADDR: Indicates if the local socket address can be reused.
+        #                 This option is supported by sockets with an address family
+        #                 of AF_INET or AF_INET6 and a type of SOCK_STREAM or SOCK_DGRAM.
+        #   1:            A value of 0 (default) disables the option.
+        #                 A non-zero value sets the option indicating the local socket address can be reused.
+
+        self.socketServer.setsockopt( socket.SOL_SOCKET, socket.SO_REUSEADDR, 1 )
 
         try:
-            self.objSocket.bind( ( '', 80 ) )
-            self.objSocket.listen( maxClients )
+            self.socketServer.bind( ( '', 80 ) ) # everyone can connect
+            self.socketServer.listen( maxClients )
+
+            # Register socketServer for polling (POLLIN: only poll for input)
+            self.poll.register( self.socketServer, select.POLLIN )
+
             
             self.ipAddress, self.subnetMask, self.gateway, self.dnsServer = self.wlanAccessPoint.ifconfig() # [IP address, subnet mask, gateway, DNS server]
             self.macAddress = ubinascii.hexlify( network.WLAN().config('mac'),':' ).decode()
@@ -119,7 +146,11 @@ class SimpleAccessPointHttpServer:
 
         
     def stop( self ):
-        try : self.objSocket.close()
+        for pathRequestHandler in self.aPathRequestHandler :
+            try: pathRequestHandler[1].deinit()
+            except: pass
+                
+        try : self.socketServer.close()
         except: pass
     
         try : self.wlanAccessPoint.active( False ) 
@@ -151,24 +182,31 @@ class SimpleAccessPointHttpServer:
             
 
     def accept( self ):
-        socketClient = None
+        aEvent = self.poll.poll( self.pollTimeMillis ) # wait pollTimeMillis, then give other tasks a chanche, to do there work.
         
-        try :
-            # socket.accept(): The return value is a pair (socketClient, addressClient)
-            # where socketClient is a new socket object we can send data to, or read data from
-    
-            socketClient = self.objSocket.accept()[ 0 ]
+        # check if we have stuff to handle
         
-            self.dispatch( socketClient )
+        if aEvent:
+            # Only socketServer is registered for polling, so only this one can be in the list (aEvent)
             
-        except Exception as _e:
-            print( _e )
-            #print( "Exception of type {0} occurred. Arguments:\n{1!r}".format(type(_e).__name__, _e.args))
-        
-        finally :
-            #print(socketClient)
-            try : socketClient.close()
-            except: pass
+            socketClient = None
+            
+            try:
+                # The return value is a pair (clientSocket, clientAddress)
+                # where clientSocket is a new socket object where we can
+                # receive data from and send data to:
+                socketClient = self.socketServer.accept()[ 0 ]
+
+                self.dispatch( socketClient )
+
+            except Exception as _e:
+                print( _e )
+                #print( "Exception of type {0} occurred. Arguments:\n{1!r}".format(type(_e).__name__, _e.args))
+
+            finally :
+                #print(socketClient)
+                try : socketClient.close()
+                except: pass
 
         
     def getRequestPath( self, strRequest ) :

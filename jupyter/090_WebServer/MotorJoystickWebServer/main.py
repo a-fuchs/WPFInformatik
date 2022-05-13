@@ -1,227 +1,131 @@
-#######################################
-# Constants
-
-# ID_LED = 13 # Esp8266: Croduino 
-ID_LED = 25 # Esp32 HeltTec
-# ID_LED = 14 # Esp32 NodeMCU, external LED
-
-#======================================
-SSID        = "ESP minimal http-server"
-PASSWORD    = '123123123123' # default is 'micropythoN', attension: at least 8 chars, otherwise error: 'OSError: can't set AP config'
-MAX_CLIENTS = 5 # Good maximal ammount of posiible clients
-
-
-POLL_TIME_MILLIS = 0
-
-#######################################
-# Init
-
-from machine import PWM, Pin
-
-led = PWM( Pin(25, Pin.OUT), freq=1000, duty=0)  # 25 HelTec, 13 Croduino
-
-
-#======================================
-# Typical code for setting up the controller as access point.
-# At the end we get a server-socket listening for clients to connect:
-
-import network
-import socket # usocket
-import select # uselect
-
-
-wlanAccessPoint = network.WLAN( network.AP_IF ) # create access-point interface
-
-wlanAccessPoint.config( essid = SSID, password = PASSWORD ) # ESP-8266 and ESP-32
-# wlanAccessPoint.config( essid = SSID, password = PASSWORD, max_clients = MAX_CLIENTS ) # ESP32
-    
-wlanAccessPoint.active( True )  # activate the interface
-
-print( wlanAccessPoint.ifconfig()[0] )
-
-# A internet stream server-socket: this server-socket creates the clientSockets.
-serverSocket = socket.socket( socket.AF_INET, socket.SOCK_STREAM )
-
-# To prevent "OSError: [Errno 98] Address already in use",
-# when a previous execution has left the socket in a TIME_WAIT state,
-# and so can’t be immediately reused:
-
-#   SOL_SOCKET:   Socket Options That Apply to the Socket Layer
-#   SO_REUSEADDR: Indicates if the local socket address can be reused.
-#                 This option is supported by sockets with an address family
-#                 of AF_INET or AF_INET6 and a type of SOCK_STREAM or SOCK_DGRAM.
-#   1:            A value of 0 (default) disables the option.
-#                 A non-zero value sets the option indicating the local socket address can be reused.
-
-serverSocket.setsockopt( socket.SOL_SOCKET, socket.SO_REUSEADDR, 1 )
-
-try:
-    serverSocket.bind( ( '', 80 ) ) # everyone can connect
-    serverSocket.listen( MAX_CLIENTS )
-except Exception as _e:
-    print( _e )
-
-
-# Register serverSocket for polling (POLLIN: only poll for input)
-poll = select.poll()
-poll.register( serverSocket, select.POLLIN )
-
-
-#######################################
-# Extract request-path from header:
-# For example:
-#   In browser:      "http://192.168.4.1/led/On"
-#   ==> strRequest:  "GET /led/On"
-#   This function removes the "GET " and returns in this example "/led/On".
-
-def getPathFromRequest( strRequest ) :
-    iRequestPathStart = strRequest.find( "GET " ) # Every http request starts with "GET "
-
-    if iRequestPathStart >= 0 :                    # followed by the request-path delimited with a ' ' charakter.
-        iRequestPathStart += 4
-
-        iRequestPathEnd = strRequest.find( " ", iRequestPathStart )
-
-        if iRequestPathEnd >= 0 :
-            return strRequest[ iRequestPathStart : iRequestPathEnd ]
-
-    return ""
-    
-
-def sendHttpHeader( strResponseType, strContentType, clientSocket ):
-    clientSocket.send( "HTTP/1.1 " )
-    clientSocket.send( strResponseType )
-    clientSocket.send( "\nContent-Type: text/" )
-    clientSocket.send( strContentType )
-    clientSocket.send( "; charset=UTF-8\n" ) # we send html and text is encoded in UTF-8
-    clientSocket.send( "Connection: close\n\n" ) # We are (suspending and) closing the connection after sending the data.
-
-def sendFile( strFileName, clientSocket ):    
-    with open( strFileName, 'r' ) as f:
-        while True:
-            chunk = f.read(1024) # Read the next 1KB chunk
-            
-            if not chunk:
-                break
-                
-            clientSocket.send(chunk) # Send the next 1KB chunk
-            
-            
-#######################################
-# Loop
-# Listen for connecting clients and
-# handle requests
-import time
-import display
-display = display.Display()
-display.setCenter( 64, 32 )
-
-import re
-
-PATTERN_JOYSTICK = re.compile( "/joystick/(.*)_(.*)" )
-
-fSpeed  = 0
-fGear   = 0
-
+from httpServer import RequestHandler, FileRequestHandler, ContentType, AccessPointHttpServer
 from motor import Motor
 
-motorL = Motor( 12, 13,
-    iFrequency     = 300,
-    iDutyMinLeft   = 220,
-    iDutyMaxLeft   = 1023,
-    iDutyMinRight  = 220,
-    iDutyMaxRight  = 1023,
-    fSpeedMaxLeft  = -1.0,
-    fSpeedMaxRight =  1.0 )
+#######################################
+# class SpeedRequestHandler
 
-motorR = Motor( 18, 22,
-    iFrequency     = 300,
-    iDutyMinLeft   = 220,
-    iDutyMaxLeft   = 1023,
-    iDutyMinRight  = 220,
-    iDutyMaxRight  = 1023,
-    fSpeedMaxLeft  = -1.0,
-    fSpeedMaxRight =  1.0 )
 
-try:
+gfGear  = 0
+gfSpeed = 0
+
+
+class SpeedRequestHandler( RequestHandler ) :
+    def __init__( self ) :
+        super().__init__( strContentType = ContentType.PLAIN )
+        
+        self._fSpeedCur = 0
+        self._fGearCur  = 0
+        
+        self._motorL = Motor( 12, 13,
+            iFrequency     = 300,
+            iDutyMinLeft   = 220,
+            iDutyMaxLeft   = 1023,
+            iDutyMinRight  = 220,
+            iDutyMaxRight  = 1023,
+            fSpeedMaxLeft  = -1.0,
+            fSpeedMaxRight =  1.0 )
+
+        self._motorR = Motor( 18, 22,
+            iFrequency     = 300,
+            iDutyMinLeft   = 220,
+            iDutyMaxLeft   = 1023,
+            iDutyMinRight  = 220,
+            iDutyMaxRight  = 1023,
+            fSpeedMaxLeft  = -1.0,
+            fSpeedMaxRight =  1.0 )
+        
+        
+    def dispatch( self, socketClient, strPath = None, match = None ) :
+        # Here You have velocity in[-1;1] and gear in [-1;1]
+        global gfGear
+        global gfSpeed
+        
+        gfGear  = float(match.group( 1 )) # x
+        gfSpeed = float(match.group( 2 )) # y
+        
+        if gfSpeed != self._fSpeedCur or gfGear != self._fGearCur :
+            self._motorL.setSpeed( gfSpeed + gfGear )
+            self._motorR.setSpeed( gfSpeed - gfGear )
+            
+            self._fSpeed   = gfSpeed
+            self._fGearCur = gfGear
+            
+            # print( "Set: Velocity = {}, Gear = {}".format( gfSpeed, gfGear ), end="" )
+        
+        self.sendHeader( socketClient )
+        socketClient.send( match.group( 1 ) + ";" + match.group( 2 ) )
+
+    def deinit():
+        self._motorL.deinit()
+        self._motorR.deinit()
+        
+#######################################
+# Add Requesthandler to server
+        
+httpServer = AccessPointHttpServer()
+
+httpServer.addRequestHandler( "/joystick/(.*)_(.*)", SpeedRequestHandler() )
+httpServer.addRequestHandler( "/default.css", FileRequestHandler( "/default.css", strContentType = ContentType.CSS        ) )
+httpServer.addRequestHandler( "/default.js",  FileRequestHandler( "/default.js",  strContentType = ContentType.JAVASCRIPT ) )
+httpServer.addRequestHandler( "/",            FileRequestHandler( "/index.html" ) )
+
+
+# and start server:
+httpServer.start( ssid = "ESP32 MotorJoystick WebServer", password = "123123123123" )
+
+print( httpServer )
+
+
+#######################################
+# Setup display:
+import display
+
+display = display.Display()
+
+display.clear()
+display.text( httpServer.ipAddress, 0, 10 )
+display.show()
+display.setCenter( 64, 32 )
+
+
+#######################################
+# disable the brownout-detector
+def disableBrownOutDetector():
+    from machine import mem32
+    from micropython import const
+
+    DR_REG_RTCCNTL_BASE    = const(0x3ff48000)
+    RTC_CNTL_BROWN_OUT_REG = const(DR_REG_RTCCNTL_BASE + 0xd4)
+    mem32[RTC_CNTL_BROWN_OUT_REG] = 0
+
+# disableBrownOutDetector()
+
+
+#######################################
+# Loop
+
+try :
     while True:
-        aEvent = poll.poll( POLL_TIME_MILLIS ) # wait POLL_TIME_MILLIS, then give other tasks a chanche, to do there work.
+        # print( "\nWaiting for client..." ) # , end="" )
+        httpServer.accept()
         
-        # check if we have stuff to handle
-        
-        if aEvent:
-            # Only serverSocket is registered for polling, so only this one can be in the list (aEvent)
-            
-            try:
-                # The return value is a pair (clientSocket, clientAddress)
-                # where clientSocket is a new socket object where we can
-                # receive data from and send data to:
-                clientSocket, clientAddress = serverSocket.accept()
-
-                strPath = getPathFromRequest( str( clientSocket.recv( 1024 ) ) ) # read maximal 1024 bytes
-                
-                # print( "Path: ", strPath )
-                
-                match = PATTERN_JOYSTICK.match( strPath )
-            
-                if match :
-                    fGear  = float(match.group( 1 )) # x
-                    fSpeed = float(match.group( 2 )) # y
-
-                    # Here You have gear in[-1;1] and speed in [-1;1].
-                    # Change this for Your needs.
-                    print( "Set: Gear = {}, speed = {}".format( fGear, fSpeed ) )
-   
-                    motorL.setSpeed( fSpeed + fGear )
-                    motorR.setSpeed( fSpeed - fGear )
-        
-                  
-                    sendHttpHeader( "200 OK", "plain", clientSocket )
-                    clientSocket.send( match.group( 1 ) + ";" + match.group( 2 ) )
-                   
-                elif strPath == "/" :
-                    sendHttpHeader( "200 OK", "html", clientSocket )
-                    sendFile( "/index.html", clientSocket )
-                             
-                elif strPath == "/default.css" :
-                    sendHttpHeader( "200 OK", "css", clientSocket )
-                    sendFile( "/default.css", clientSocket )
-
-                elif strPath == "/default.js" :
-                    sendHttpHeader( "200 OK", "javascript", clientSocket )
-                    sendFile( "/default.js", clientSocket )
-                             
-                else:
-                    sendHttpHeader( "404 Not Found", "html", clientSocket )
-                    sendFile( "/error404.html", clientSocket )
-
-            except Exception as _e:
-                print( _e )
-
-            finally:
-                try   : clientSocket.close()
-                except: pass
-
-        # Do something in the "background":
+        # Do something useful in the "background":
         display.clear()
         display.circle( 0,0,6)
-        display.fillCircle( int(fGear*25), -int(fSpeed*25), 4 )
+        display.fillCircle( int(gfGear*25), -int(gfSpeed*25), 4 )
         display.show()
         
 except KeyboardInterrupt:
     pass # User has typed "Ctrl C"
 
 finally:
-    # Clean up:
-    try   : serverSocket.close()
-    except: pass
-
-    try   : wlanAccessPoint.active( False )  
-    except: pass
-
-    motorR.deinit()
-    motorL.deinit()
-
-    import gc
-    gc.collect()
+    httpServer.stop()
+    print( "\nServer stopped." )
     
+    display.clear()
+    display.setCenter( 0, 0 )
+    display.text( "Server stopped.", 0, 30 )
+    display.show()
+    
+    import gc
+    gc.collect()    
